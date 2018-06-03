@@ -1,6 +1,6 @@
-package main.ftsp.mappers.user;
+package mappers.user;
 
-import main.ftsp.entity.User;
+import entity.User;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;

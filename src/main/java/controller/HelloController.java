@@ -1,14 +1,15 @@
-package main.ftsp.controller;
+package controller;
 
 
-import main.ftsp.entity.User;
-import main.ftsp.services.UserService;
+import entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import services.UserService;
 
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -31,6 +32,7 @@ public class HelloController{
         user.setId(UUID.randomUUID().toString().replaceAll("-", ""));
         user.setUpdateTime(new Date());
         userService.addUser(user);
+//        List<User> list = userService.getUserList();
         return "hello";
     }
 

@@ -1,7 +1,8 @@
-package main.ftsp.services;
+package services;
 
-import main.ftsp.entity.User;
-import main.ftsp.mappers.user.UserMapper;
+
+import entity.User;
+import mappers.user.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

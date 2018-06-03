@@ -8,10 +8,10 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="main.ftsp.services" />
-    <context:component-scan base-package="main.ftsp.mappers" />
+    <context:component-scan base-package="services" />
+    <context:component-scan base-package="mappers" />
     <!-- 扫描包目录的所有Controller -->
-    <context:component-scan base-package="main.ftsp.controller"/>
+    <context:component-scan base-package="controller"/>
     <mvc:annotation-driven/>
 
     <!-- 配置视图解析器，跳转jsp界面 -->

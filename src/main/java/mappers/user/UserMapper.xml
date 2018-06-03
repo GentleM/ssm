@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="main.ftsp.mappers.user.UserMapper">
+<mapper namespace="mappers.user.UserMapper">
 
-    <insert id="addUser" parameterType="main.ftsp.entity.User">
+    <insert id="addUser" parameterType="entity.User">
         insert into t_user (c_id, d_update_time) VALUE (#{id}, #{updateTime})
     </insert>
 </mapper>

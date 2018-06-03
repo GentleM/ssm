@@ -1,4 +1,4 @@
-package main.ftsp.entity;
+package entity;
 
 import java.util.Date;
 
