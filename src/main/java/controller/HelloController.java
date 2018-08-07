@@ -33,6 +33,7 @@ public class HelloController{
         user.setUpdateTime(new Date());
         userService.addUser(user);
 //        List<User> list = userService.getUserList();
+
         return "hello";
     }
 
