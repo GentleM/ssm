@@ -1,7 +1,7 @@
 package com.cjm.controller.news;
 
-import com.cjm.dao.business.ArticleDao;
 import com.cjm.entity.Article;
+import com.cjm.services.business.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +19,7 @@ import java.util.List;
 public class NewsController {
 
     @Autowired
-    ArticleDao articleDao;
+    ArticleService articleService;
 
     /**
      * 获取新闻列表。
@@ -27,7 +27,7 @@ public class NewsController {
      */
     @RequestMapping("/get")
     public void getArticleList(){
-        List<Article> list = articleDao.getArticleList();
+        List<Article> list = articleService.getArticleList();
         return ;
     }
 }

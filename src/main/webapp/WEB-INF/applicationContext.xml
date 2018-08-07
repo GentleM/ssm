@@ -8,13 +8,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="com.cjm" />
-    <!--<context:component-scan base-package="impl" />-->
-    <!--<context:component-scan base-package="services" />-->
-    <!--<context:component-scan base-package="mappers" />-->
-    <!--&lt;!&ndash; 扫描包目录的所有Controller &ndash;&gt;-->
-    <!--<context:component-scan base-package="controller"/>-->
-    <!--<context:component-scan base-package="com.cjm.controller"/>-->
+    <context:component-scan base-package="com.cjm.services, com.cjm.controller" />
     <mvc:annotation-driven/>
 
     <!-- 配置视图解析器，跳转jsp界面 -->

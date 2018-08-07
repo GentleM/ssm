@@ -1,4 +1,4 @@
-package com.cjm.dao.business;
+package com.cjm.services.business;
 
 import com.cjm.entity.Article;
 import org.springframework.stereotype.Service;
@@ -6,13 +6,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * 文章Dao。
+ * 文章处理Service。
  *
  * @author rango
- *         2018-08-06 22:40
+ *         2018-08-07 22:21
  **/
 @Service
-public interface ArticleDao {
+public interface ArticleService {
 
     List<Article> getArticleList();
 }
