@@ -1,6 +1,6 @@
-package dao.business;
+package com.cjm.dao.business;
 
-import entity.Article;
+import com.cjm.entity.Article;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,8 +1,8 @@
-package services;
+package com.cjm.services;
 
 
-import entity.User;
-import mappers.user.UserMapper;
+import com.cjm.entity.User;
+import com.cjm.mappers.user.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

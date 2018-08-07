@@ -1,7 +1,7 @@
-package impl.business;
+package com.cjm.impl.business;
 
-import dao.business.ArticleDao;
-import entity.Article;
+import com.cjm.dao.business.ArticleDao;
+import com.cjm.entity.Article;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package entity;
+package com.cjm.entity;
 
 /**
  * 新闻文章。

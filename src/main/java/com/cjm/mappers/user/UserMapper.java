@@ -1,6 +1,6 @@
-package mappers.user;
+package com.cjm.mappers.user;
 
-import entity.User;
+import com.cjm.entity.User;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
