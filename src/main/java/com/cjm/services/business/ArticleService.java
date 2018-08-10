@@ -11,7 +11,6 @@ import java.util.List;
  * @author rango
  *         2018-08-07 22:21
  **/
-@Service
 public interface ArticleService {
 
     List<Article> getArticleList();

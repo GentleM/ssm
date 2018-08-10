@@ -2,7 +2,7 @@ package com.cjm.services.impl.business;
 
 import com.cjm.entity.Article;
 import com.cjm.services.business.ArticleService;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ import java.util.List;
  * @author rango
  *         2018-08-07 22:28
  **/
-@Component
+@Service
 public class ArticleServiceImpl implements ArticleService{
 
     public List<Article> getArticleList(){

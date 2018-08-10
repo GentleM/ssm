@@ -12,7 +12,7 @@ import java.util.List;
  * 新闻Controller。
  *
  * @author rango
- *         2018-08-05 11:24
+ * 2018-08-05 11:24
  **/
 @RestController
 @RequestMapping("/Article")
@@ -23,11 +23,12 @@ public class NewsController {
 
     /**
      * 获取新闻列表。
+     *
      * @return
      */
     @RequestMapping("/get")
-    public void getArticleList(){
+    public void getArticleList() {
         List<Article> list = articleService.getArticleList();
-        return ;
+        return;
     }
 }
